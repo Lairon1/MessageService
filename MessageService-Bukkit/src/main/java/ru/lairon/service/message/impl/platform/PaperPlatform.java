@@ -68,7 +68,7 @@ public class PaperPlatform implements PlatformAdapter {
         announceTitle(title, subTitle, null);
     }
 
-    private final MiniMessage miniMessage = MiniMessage.builder().build();
+    private final MiniMessage miniMessage = MiniMessage.miniMessage();
 
     private Component prepareMessage(String message) {
         return miniMessage.deserialize(ChatColor.translateAlternateColorCodes('&', message));

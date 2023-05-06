@@ -13,6 +13,7 @@
     <modules>
         <module>MessageService</module>
         <module>MessageService-Bukkit</module>
+        <module>MessageService-Velocity</module>
     </modules>
 
     <properties>
